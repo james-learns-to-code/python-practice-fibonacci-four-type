@@ -27,7 +27,7 @@ for n in range(3, number + 1):
     fibs[n] = fibs[n - 1] + fibs[n - 2]
 ```
 
-#Performance Comparison
+# Performance Comparison
 ```
 Wrote profile results to Fibonacci.py.lprof
 Timer unit: 1e-06 s
