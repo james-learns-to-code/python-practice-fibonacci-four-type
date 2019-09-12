@@ -71,7 +71,7 @@ def test_get_fib_num_by_bottom_up_at(number, expect_number):
 
 # Performance
 
-@profile
+#@profile
 def test_performance_get_fib_num_by_recursive():
     test_get_fib_num_by_recursive_at(2, 1)
     test_get_fib_num_by_recursive_at(5, 5)
@@ -79,7 +79,7 @@ def test_performance_get_fib_num_by_recursive():
     test_get_fib_num_by_recursive_at(20, 6765)
     test_get_fib_num_by_recursive_at(40, 102334155)
 
-@profile
+#@profile
 def test_performance_get_fib_num_by_recursive_tail_call():
     test_get_fib_num_by_recursive_tail_call_at(2, 1)
     test_get_fib_num_by_recursive_tail_call_at(5, 5)
@@ -87,7 +87,7 @@ def test_performance_get_fib_num_by_recursive_tail_call():
     test_get_fib_num_by_recursive_tail_call_at(20, 6765)
     test_get_fib_num_by_recursive_tail_call_at(40, 102334155)
 
-@profile
+#@profile
 def test_performance_get_fib_num_by_memoized():
     test_get_fib_num_by_memoized_at(2, 1)
     test_get_fib_num_by_memoized_at(5, 5)
@@ -95,7 +95,7 @@ def test_performance_get_fib_num_by_memoized():
     test_get_fib_num_by_memoized_at(20, 6765)
     test_get_fib_num_by_memoized_at(40, 102334155)
 
-@profile
+#@profile
 def test_performance_get_fib_num_by_bottom_up():
     test_get_fib_num_by_bottom_up_at(2, 1)
     test_get_fib_num_by_bottom_up_at(5, 5)
